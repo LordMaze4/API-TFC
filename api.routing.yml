@@ -1,0 +1,16 @@
+apiform:
+  path: '/api/Form'
+  defaults:
+    _form: '\Drupal\api\Form\ApiForm'
+    _title: 'ReText'
+  requirements:
+    _permission: 'access content'
+
+# Ruta para manejar el callback de OAuth directamente en el formulario.
+api.oauth_callback:
+  path: '/api/oauth/callback'
+  defaults:
+    _form: '\Drupal\api\Form\ApiForm'
+    _title: 'OAuth Callback'
+  requirements:
+    _permission: 'access content'

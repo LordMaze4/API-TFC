@@ -1,0 +1,4 @@
+services:
+  api.gmail_service:
+    class: 'Drupal\api\Service\GmailService'
+

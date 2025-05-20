@@ -1,0 +1,7 @@
+name: 'API Integration'
+type: module
+description: 'Integrates Google Calendar and Gmail services using their APIs.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:system
